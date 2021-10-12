@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css"  rel="stylesheet">
+    <title>Usuarios</title>
+</head>
+
+<body>
+
+    <div id= "general"> <!--WRAP-->
+
+        <header id="header">  <!--CABECERA-->
+
+            <div id="divLogo">
+                <img src="img/LOGO CINEMARK.jpg" id="imgLogo">
+            </div>
+
+            <div id="divOpcionesHeader"> 
+                <a class="opcionesHeader" href="#" >Menú</a>
+                <a class="opcionesHeader" href="#" >Cerrar sesión</a>
+            </div>
+
+        </header>
+
+        <div id="encabezadoPag"> <!--TITULO-->
+            <h1>USUARIOS</h1>
+        </div>
+
+        <section id="contenido"> <!--INCLUYE TODO EL CONTENIDO-->
+
+            <div id="contenedorBotonesTabla"> <!--BOTONES-->
+                <a href="#">
+                    <div class="botonTabla">
+                        <h6>Ver</h6>
+                    </div>
+                </a>
+
+                <a href="editarUsuario.html">
+                    <div class="botonTabla">
+                        <h6>Editar</h6>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="botonTabla" onclick="eliminarFila()">
+                        <h6>Eliminar</h6>
+                    </div>
+                </a>
+            </div >
+
+            <div id="contenedorBusquedaTabla"> <!--BUSQUEDA-->
+                <input type="text" name="buscarUsuario" placeholder="Search">
+                <img src="img/loupe.png">
+            </div>
+
+            <div class="clearfix"></div> <!--LIMPIAR FLOTADOS-->
+
+            <div id="contenedorTabla"> <!--TABLA-->
+                <table id="tabla-usuario" class="tabla">
+                    <thead>
+                        <tr> <!--Primera fila-->
+
+                            <th>
+                                <form>
+                                    <input type="checkbox">
+                                </form>
+                            </th>
+
+                            <th>
+                                Id
+                            </th>
+
+                            <th>
+                                Nombre
+                            </th>
+
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <h6>Todos los derechos reservados &copy;</h6>
+        </footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="scripts/usuarios.js"></script>
+</body>
+</html>

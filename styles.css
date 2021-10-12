@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#general{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+/* --------------------INICIO HEADER-----------------*/
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: #fe0405;
+}
+
+#divLogo{
+    display: block;
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+}
+#imgLogo{
+    width: 150px;
+    height: 100px;
+}
+#divOpcionesHeader{
+    display: block;
+    width: 300px;
+    height: 100px;
+    float: right;
+    
+}
+
+.opcionesHeader{
+    margin-right: 40px;
+    color: black;
+    font-size: 18px;
+    line-height: 92px;
+}
+/* --------------------FIN HEADER-----------------*/
+
+/* -------------INICIO ENCABEZADO PÁGINA----------*/
+
+#encabezadoPag{
+    width: 100%;
+    height: 150px;
+}
+#encabezadoPag h1{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+/* ---------------FIN ENCABEZADO PÁGINA------------*/
+
+/* ---------------INICIO BOTONES ------------*/
+.clearfix{
+    float: none;
+    clear: both;
+}
+#contenedorBotonesTabla{
+    float: left;
+    width: 400px;
+    margin-left: 20px;
+    
+}
+.botonTabla{
+    float: left;
+    width: 32%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    background-color: #fe0405;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#contenedorBotonesTabla a:first-child .botonTabla{
+    border-left: 2px solid black;
+    border-radius:20px 0 0 20px;
+}
+#contenedorBotonesTabla a:last-child .botonTabla{
+    border-radius:0 20px 20px 0;
+}
+.botonTabla h6{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+/* ---------------FIN BOTONES ------------*/
+
+/* ---------------INICIO BUSQUEDA ------------*/
+#contenedorBusquedaTabla{
+    float: right;
+    width: 300px;
+    margin-right: 20px;
+    border:1px solid #ccc;
+}
+
+#contenedorBusquedaTabla input{
+    box-sizing: border-box;
+	padding:10px 30px 10px 10px;
+	width:85%;
+    box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+#contenedorBusquedaTabla img{
+    position:absolute;
+    padding-top: 12px;
+    padding-left: 10px;
+    width: 15px;
+}
+/* ---------------FIN BUSQUEDA ------------*/
+/* ---------------INICIO TABLA ------------*/
+#contenedorTabla{
+    width: 97%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: white;
+    margin-bottom: 60px;
+}
+.tabla{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+th{
+    font-weight: bold;
+}
+th, td{
+    padding: 20px;
+}
+.tabla thead{
+    background-color: #fe0405;
+    color: white;
+    border-bottom: 5px solid #860505;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+/* ---------------FIN TABLA ------------*/
+/* ---------------INICIO FOOTER ------------*/
+#footer{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+}
+
+#footer h6{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+}
+/* ---------------FIN FOOTER ------------*/
+
+/* --------------------INICIO EDITAR USUARIO-----------------*/
+#encabezadoPag1{
+    width: 100%;
+    height: 40px;
+}
+
+.edicion{
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border-radius: 1em; 
+}
+
+.controls{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid;
+    
+}
+
+.edicion p{
+    height: 40px;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+}
+
+#boton{
+    background-color: #aaa8a8;
+    margin-bottom: 16px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 50px;  
+}
+/* --------------------FIN EDITAR USUARIO-----------------*/
+
+/* --------------------INICIO COMENTARIO-----------------*/
+
+#contenidoComentario{
+    display: flex;
+}
+#encabezadoPag2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#encabezadoPag2 textarea {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#encabezadoPag2 input {
+    margin-left: auto;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.foto{ 
+    padding: 10px; 
+    margin: 10px; 
+    border: 1px solid black; 
+    float: left; 
+    width: 400px;
+    height: 550px;
+}
+
+#comentar{
+    height: 200px;
+    
+}
+
+#footerComentario{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+}
+
+#footerComentario h6{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css"  rel="stylesheet">
+    <title>Usuarios</title>
+</head>
+<body>
+   
+    <div id= "general"> <!--WRAP-->
+
+        <header id="header">  <!--CABECERA-->
+
+            <div id="divLogo">
+                <img src="img/LOGO CINEMARK.jpg" id="imgLogo">
+            </div>
+
+            <div id="divOpcionesHeader"> 
+                <a class="opcionesHeader" href="#" >Menú</a>
+                <a class="opcionesHeader" href="#" >Cerrar sesión</a>
+            </div>
+
+        </header>
+
+        <div id="encabezadoPag1"> <!--TITULO-->
+            <h1>EDITAR</h1>
+        </div> 
+
+        <section class="edicion">
+
+            <form >
+                <label for="id">Id</label>
+                <input class="controls" type="text" id="id" name="id"> <br>
+
+                <label for="nombre">Nombre</label>
+                <input class="controls" type="text" id="nombre" name="nombre"> <br>
+
+                <label for="apellido">Apellidos</label>
+                <input class="controls" type="text" id="apellido" name="apellido"> <br>
+
+                <label for="usuario">Usuario</label>
+                <input class="controls" type="text" id="usuario" name="usuario"> <br>
+
+                <label for="rol">Rol</label>
+                <input class="controls" type="text" id="rol" name="rol"> <br>
+
+                <p>Asignar permiso de administrador <input type="checkbox"></p>
+
+                <input id="boton" type="submit" value="Cancelar">
+                <input id="boton" type="submit" value="Guardar">
+            </form>
+
+        </section>
+
+        <footer id="footer">
+            <h6>Todos los derechos reservados &copy;</h6>
+        </footer>
+
+    </div>    
+</body>
+</html>
